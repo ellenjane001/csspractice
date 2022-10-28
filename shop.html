@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ecommerce</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="image/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="image/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="image/favicon-16x16.png">
+    <link rel="manifest" href="image/site.webmanifest">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"
+        defer></script>
+    <script src="https://kit.fontawesome.com/b140af86b3.js" crossorigin="anonymous" defer></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+</head>
+
+<body>
+    <main class="main-container">
+        <!-- navigation -->
+        <nav role="navigation" class="navbar navbar-dark bg-dark navbar-expand navbar-nav">
+            <div class="container-fluid">
+                <div class="logo">
+                    <a class="navbar-brand" href="index.html"><i>Ecommerce LOGO</i></a>
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="">Shop</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Cart</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Checkout</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Dropdown
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- container -->
+        <div class="container-fluid p-4">
+            <div class="row">
+                <div class="col-3">
+                    <div class="categories">
+                        <ul class="list-unstyled">
+                            <li>Categories</li>
+                            <ul class="fa-ul" style="--fa-li-width: 2em;">
+                                <li>
+                                    <span class="fa-li"><i class="fa-solid fa-check-square"></i></span>
+                                    Dress
+                                </li>
+                                <li>
+                                    <span class="fa-li" style="--fa-li-margin: 2em;">
+                                        <i class="fa-regular fa-square"></i>
+                                    </span>
+                                    Bags
+                                </li>
+                                <li> <span class="fa-li" style="--fa-li-margin: 2em;"><i
+                                            class="fa-regular fa-square"></i></span>Shoes</li>
+                                <li> <span class="fa-li" style="--fa-li-margin: 2em;"><i
+                                            class="fa-regular fa-square"></i></span>Tops</li>
+                                <li> <span class="fa-li" style="--fa-li-margin: 2em;"><i
+                                            class="fa-regular fa-square"></i></span>Jeans</li>
+                            </ul>
+                            <li>Price</li>
+                            <li><input type="range"></li>
+                            <li>Color</li>
+                            <ul class="list-unstyled">
+                                <li><input type="color" name="" id=""></li>
+                            </ul>
+                            <li>Style</li>
+                            <ul class="fa-ul" style="--fa-li-width: 2em;">
+                                <li><span class="fa-li" style="--fa-li-margin: 2em;"><i
+                                            class="fa-regular fa-square"></i></span><span>style1</span></li>
+                                <li><span class="fa-li" style="--fa-li-margin: 2em;"><i
+                                            class="fa-regular fa-square"></i></span><span>style2</span></li>
+                                <li><span class="fa-li" style="--fa-li-margin: 2em;"><i
+                                            class="fa-regular fa-square"></i></span><span>style3</span></li>
+                                <li><span class="fa-li" style="--fa-li-margin: 2em;"><i
+                                            class="fa-regular fa-square"></i></span><span>style4</span></li>
+                                <li><span class="fa-li" style="--fa-li-margin: 2em;"><i
+                                            class="fa-regular fa-square"></i></span><span>style5</span></li>
+                            </ul>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-9">
+                    <div class="row">
+                        <!-- purple dress -->
+                        <div class="col c-wrapper">
+                            <div class="card" style="width: 18rem;">
+                                <img src="https://images.unsplash.com/photo-1559034881-41a26a539920?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+                                    alt="purple-dress" class="img-fluid card-img-top">
+                                <div class="card-body">
+                                    <h5 class="card-title">Purple</h5>
+                                    <div class="card-text">
+                                        <span class="source">
+                                            Photo by <a
+                                                href="https://unsplash.com/@snejinka?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Anna
+                                                Logacheva</a> on <a
+                                                href="https://unsplash.com/s/photos/purple-dress?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+                                        </span>
+                                    </div>
+                                    <a href="#" class="btn btn-outline-dark">Add to Cart</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- red dress -->
+                        <div class="col c-wrapper">
+                            <div class="card" style="width: 18rem;">
+                                <img src="https://images.unsplash.com/photo-1606480192262-e3b6a9f37142?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=739&q=80"
+                                    alt="red-dress" class="img-fluid card-img-top">
+                                <div class="card-body">
+                                    <h5 class="card-title">Red</h5>
+                                    <div class="card-text">
+                                        <span class="source">
+                                            Photo by <a
+                                                href="https://unsplash.com/@laurachouette?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Laura
+                                                Chouette</a> on <a
+                                                href="https://unsplash.com/s/photos/red-dress?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+                                        </span>
+                                    </div>
+                                    <a href="#" class="btn btn-outline-dark">Add to Cart</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- yellow dress -->
+                        <div class="col c-wrapper">
+                            <div class="card" style="width: 18rem;">
+                                <img src="https://images.unsplash.com/photo-1583960485234-946d639630fd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=686&q=80"
+                                    alt="yellow-dress" class="img-fluid card-img-top">
+                                <div class="card-body">
+                                    <h5 class="card-title">Yellow</h5>
+                                    <div class="card-text">
+                                        <span class="source">
+                                            Photo by <a
+                                                href="https://unsplash.com/@angelopantazis?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Angelo
+                                                Pantazis</a> on <a
+                                                href="https://unsplash.com/s/photos/yellow-dress?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+                                        </span>
+                                    </div>
+                                    <a href="#" class="btn btn-outline-dark">Add to Cart</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- white dress -->
+                        <div class="col c-wrapper">
+                            <div class="card" style="width: 18rem;">
+                                <img src="https://images.unsplash.com/photo-1613966570650-add3cf83aa83?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+                                    alt="white-dress" class="img-fluid card-img-top">
+                                <div class="card-body">
+                                    <h5 class="card-title">White</h5>
+                                    <div class="card-text">
+                                        <span class="source">
+                                            Photo by <a
+                                                href="https://unsplash.com/@photosbychalo?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Chalo
+                                                Garcia</a> on <a
+                                                href="https://unsplash.com/s/photos/white-dress?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+                                        </span>
+                                    </div>
+                                    <a href="#" class="btn btn-outline-dark">Add to Cart</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- blue dress -->
+                        <div class="col c-wrapper">
+                            <div class="card" style="width: 18rem;">
+                                <img src="https://images.unsplash.com/photo-1596703343725-7ca01bda9a45?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=716&q=80"
+                                    alt="blue-dress" class="img-fluid card-img-top">
+                                <div class="card-body">
+                                    <h5 class="card-title">Blue</h5>
+                                    <div class="card-text">
+                                        <span class="source">
+                                            Photo by <a
+                                                href="https://unsplash.com/@laurachouette?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Laura
+                                                Chouette</a> on <a
+                                                href="https://unsplash.com/s/photos/blue-dress?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+                                        </span>
+                                    </div>
+                                    <a href="#" class="btn btn-outline-dark">Add to Cart</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- pink dress -->
+                        <div class="col c-wrapper">
+                            <div class="card" style="width: 18rem;">
+                                <img src="https://images.unsplash.com/photo-1608022770735-726e05d6bfe0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+                                    alt="pink-dress" class="img-fluid card-img-top">
+                                <div class="card-body">
+                                    <h5 class="card-title">Pink</h5>
+                                    <div class="card-text">
+                                        <span class="source">
+                                            Photo by <a
+                                                href="https://unsplash.com/@tengyart?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Tengyart</a>
+                                            on <a
+                                                href="https://unsplash.com/s/photos/pink-dress?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+                                        </span>
+                                    </div>
+                                    <a href="#" class="btn btn-outline-dark">Add to Cart</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- black dress -->
+                        <div class="col c-wrapper">
+                            <div class="card" style="width: 18rem;">
+                                <img src="https://images.unsplash.com/photo-1624556979126-a87339d47981?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+                                    alt="black-dress" class="img-fluid card-img-top">
+                                <div class="card-body">
+                                    <h5 class="card-title">Black</h5>
+                                    <div class="card-text">
+                                        <span class="source">
+                                            Photo by <a
+                                                href="https://unsplash.com/@liferondeau?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Joshua
+                                                Rondeau</a> on <a
+                                                href="https://unsplash.com/s/photos/black-dress?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+                                        </span>
+                                    </div>
+                                    <a href="#" class="btn btn-outline-dark">Add to Cart</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- r-blue dress -->
+                        <div class="col c-wrapper">
+                            <div class="card" style="width: 18rem;">
+                                <img src="https://images.unsplash.com/photo-1551803091-e20673f15770?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80"
+                                    alt="r-blue-dress" class="img-fluid card-img-top">
+                                <div class="card-body">
+                                    <h5 class="card-title">Royal Blue</h5>
+                                    <div class="card-text">
+                                        <span class="source">
+                                            Photo by <a
+                                                href="https://unsplash.com/@monicasilva?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Monica
+                                                Silva</a> on <a
+                                                href="https://unsplash.com/s/photos/bodycon-dress?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+                                        </span>
+                                    </div>
+                                    <a href="#" class="btn btn-outline-dark">Add to Cart</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="content has-text-centered">
+            <p>
+                &copy; <strong>Ecommerce</strong> by <a href="https://github.com/ellenjane001">Ellen Jane</a> 2022
+            </p>
+        </div>
+    </footer>
+</body>
+
+</html>

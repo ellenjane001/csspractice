@@ -3,6 +3,8 @@ html {
         main {
             .c-wrapper {
                 padding: 10px;
+              display: flex;
+              justify-content: center;
 
                 div.card {
                     img {

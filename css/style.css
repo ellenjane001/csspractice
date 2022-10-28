@@ -1,5 +1,7 @@
 html body main .c-wrapper {
   padding: 10px;
+  display: flex;
+  justify-content: center;
 }
 html body main .c-wrapper div.card img {
   height: 400px;
